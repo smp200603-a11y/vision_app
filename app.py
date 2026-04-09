@@ -37,7 +37,7 @@ show_details = st.toggle("Pregunta algo específico sobre la imagen", value=Fals
 if show_details:
     # Text input for additional details about the image, shown only if toggle is True
     additional_details = st.text_area(
-        "Adiciona contexto de la imagen aqui:",
+        "Si quieres saber algo, ingresa tu texto aqui:",
         disabled=not show_details
     )
 
