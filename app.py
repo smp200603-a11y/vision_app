@@ -8,6 +8,8 @@ def encode_image(image_file):
     return base64.b64encode(image_file.getvalue()).decode("utf-8")
 
 
+
+
 st.set_page_config(page_title="Analisis de imagen", layout="centered", initial_sidebar_state="collapsed")
 # Streamlit page setup
 st.title("Análisis de Imagen:🤖🏞️")
